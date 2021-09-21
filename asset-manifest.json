@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rectPortfolioRedeploy/static/css/main.a617e044.chunk.css",
-    "main.js": "/rectPortfolioRedeploy/static/js/main.39a2c4ca.chunk.js",
-    "main.js.map": "/rectPortfolioRedeploy/static/js/main.39a2c4ca.chunk.js.map",
+    "main.js": "/rectPortfolioRedeploy/static/js/main.e5633d5c.chunk.js",
+    "main.js.map": "/rectPortfolioRedeploy/static/js/main.e5633d5c.chunk.js.map",
     "runtime-main.js": "/rectPortfolioRedeploy/static/js/runtime-main.5b580fd2.js",
     "runtime-main.js.map": "/rectPortfolioRedeploy/static/js/runtime-main.5b580fd2.js.map",
     "static/js/2.cadcf21f.chunk.js": "/rectPortfolioRedeploy/static/js/2.cadcf21f.chunk.js",
@@ -16,12 +16,13 @@
     "static/media/imag.a8418eff.png": "/rectPortfolioRedeploy/static/media/imag.a8418eff.png",
     "static/media/isackAvatar.0acb35a8.png": "/rectPortfolioRedeploy/static/media/isackAvatar.0acb35a8.png",
     "static/media/poke.c50d2fa2.png": "/rectPortfolioRedeploy/static/media/poke.c50d2fa2.png",
+    "static/media/resume.a74b3b1f.pdf": "/rectPortfolioRedeploy/static/media/resume.a74b3b1f.pdf",
     "static/media/waves.fdef9646.svg": "/rectPortfolioRedeploy/static/media/waves.fdef9646.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b580fd2.js",
     "static/js/2.cadcf21f.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.39a2c4ca.chunk.js"
+    "static/js/main.e5633d5c.chunk.js"
   ]
 }
