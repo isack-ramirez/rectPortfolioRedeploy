@@ -1,6 +1,7 @@
 import react from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom"
+import {LinkContainer} from 'react-router-bootstrap'
 function MyNavbar() {
   return (
     <div>
@@ -13,14 +14,22 @@ function MyNavbar() {
       <div className="row justify-content-center">
         <div className="col-md-12 justify-content-center ">
           
-          <Navbar bg="light" variant="light" expand="lg" sticky="top" >
-            <Navbar.Brand href="#home">My Portfolio:</Navbar.Brand>
+          <Navbar bg="dark" variant="dark" expand="lg" sticky="top" >
+            <LinkContainer to="/">
+            <Navbar.Brand  >My Portfolio:</Navbar.Brand>
+            </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
+                <LinkContainer to="/">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/technologies">Contact Us</Nav.Link>
-                <Nav.Link href="/projects">About Us</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to='/technologies'>
+                <Nav.Link href="/technologies">Technologies</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to='/projects'>
+                <Nav.Link href="/projects">Projects</Nav.Link>
+                </LinkContainer>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
