@@ -34,6 +34,7 @@ function MyNavbar() {
                 <Nav.Link href="https://github.com/isack-ramirez">Github</Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/isack-ramirez-519848205/">Linkedin</Nav.Link>
                 <Nav.Link href={resume}>Resume</Nav.Link>
+                <Nav.Link href='mailto:isack.ramirez1@gmail.com'>Email</Nav.Link>
                
               </Nav>
             </Navbar.Collapse>
