@@ -68,7 +68,7 @@ function Techs() {
       <div class="row justify-content-center">
       <p class="lead"style={{ width: "18rem", margin: "40px" }} >Back End tech:</p>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" style={{marginBottom:"40px"}}>
 
       
         <Card style={{ width: "18rem", margin: "10px" }}>

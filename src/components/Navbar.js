@@ -2,7 +2,7 @@ import react from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import {LinkContainer} from 'react-router-bootstrap'
-import resume from '../images/resume.pdf';
+import newResume from '../images/resume.pdf';
 function MyNavbar() {
   return (
     <div>
@@ -33,7 +33,7 @@ function MyNavbar() {
                 </LinkContainer>
                 <Nav.Link href="https://github.com/isack-ramirez">Github</Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/isack-ramirez-519848205/">Linkedin</Nav.Link>
-                <Nav.Link href={resume}>Resume</Nav.Link>
+                <Nav.Link href={newResume}>Resume</Nav.Link>
                 <Nav.Link href='mailto:isack.ramirez1@gmail.com'>Email</Nav.Link>
                
               </Nav>
