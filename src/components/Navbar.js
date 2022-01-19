@@ -2,7 +2,7 @@ import react from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom"
 import {LinkContainer} from 'react-router-bootstrap'
-import newResume from '../images/resume.pdf';
+import newResume from '../images/resume2.pdf';
 function MyNavbar() {
   return (
     <div>
